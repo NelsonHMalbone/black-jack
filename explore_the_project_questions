@@ -1,0 +1,25 @@
+How can yo make the player start with a different amount of money?
+A:
+
+How does the program prevent the player from betting more money than they have?
+A:
+
+How does the program represent a single card?
+A:
+
+How does the program represent a hand of cards?
+A:
+
+what do each of the strings in the row list (in book line 197) represent?
+A:
+
+what happens if you delete or comment out random.shuffle(deck) ( in book line 148)?
+A:
+
+What happens if you change money -= bet on line 122(book) to money += bet?
+A:
+
+what happens when show_dealer_hand in the display_Hands() function is set to true?
+A:
+what happens when it is false?
+A:
