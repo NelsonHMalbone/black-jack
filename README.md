@@ -20,3 +20,6 @@ unique number identifies char according to unicode standard
 
 unicode is often misunderstand
 
+### unicode
+list of codes are in the link below
+https://inventwithpython.com/bigbookpython/appendixb.html
