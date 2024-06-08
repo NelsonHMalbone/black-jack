@@ -5,6 +5,8 @@ classic card game also known as 21
 """
 import random
 import sys
+import functions
+
 
 # setting up the constants
 # constants are variables just all upper case these values do not change
@@ -43,6 +45,17 @@ def main():
             print("Good thing yu wherent playing with real money.")
             print("Thanks for playing")
             sys.exit()
+
+        #Let the player enter their bet for this round
+        print('Money: ', money)
+        bet = functions.getBet(money)
+        print(bet)
+
+        # give the dealer and player two cards from the deck
+        deck = getDeck()
+        dealerHand = [deck.pop(), deck.pop()]
+        playerHand = [deck.pop(), deck.pop()]
+
 
 if __name__ == "__main__":
     main()
