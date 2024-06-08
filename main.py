@@ -56,6 +56,8 @@ def main():
         dealerHand = [deck.pop(), deck.pop()]
         playerHand = [deck.pop(), deck.pop()]
 
+        # Handles players action
+        print('Bet: ', bet)
 
 if __name__ == "__main__":
     main()
