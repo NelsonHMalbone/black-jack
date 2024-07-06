@@ -58,6 +58,8 @@ def main():
 
         # Handles players action
         print('Bet: ', bet)
+        while True: # keep looping until player stands or bust
+            displayHands(playerHand, dealerHand, False)
 
 if __name__ == "__main__":
     main()

@@ -36,3 +36,11 @@ def getDeck():
             deck.append((rank, suits))
         random.shuffle(deck)
         return deck
+
+def displayHands(playerHand, dealerHand, showDealerHand):
+    """Shows players and dealers cards Hide the dealers first card if showDealerHand is False"""
+    if showDealerHand:
+        print('Dealer:', getHandValue(dealerHand))
+        displayCards(dealerHand)
+    else:
+        print('Dealer: ???')
